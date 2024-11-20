@@ -1,0 +1,69 @@
+.navbarHeader {
+    color: white;
+    /* text-align: center; */
+    /* padding-left: 10px; */
+    margin-left: 20px;
+}
+
+.btnDiv {
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btnDiv button {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: start;
+    border: none;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnDiv button:hover {
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
+
+.focussedBtn button {
+    background-color: white;
+    color: gray;
+    border: 0.5px solid gray;
+}
+
+.btnIcon {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.navParentDiv {
+    position: relative;
+    padding-top: 20px;
+}
+
+.arrow {
+    position: absolute;
+    right: -13px;
+    top: 6px;
+    /* color: white; */
+    background-color: white;
+    color: gray;
+    border: none;
+    border-radius: 17px;
+    padding: 6px;
+    box-shadow: 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* .arrow i {
+    background-color: white;
+    color: gray;
+    border: none;
+} */
+
+.arrow:hover {
+    cursor: pointer;
+}

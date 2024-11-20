@@ -1,0 +1,23 @@
+.dynamicTableDiv {
+    max-width: 1100px;
+    overflow-x: scroll;
+}
+
+.dynamicTableTable {
+    border-collapse: collapse;
+}
+
+.dynamicTableTh {
+    background-color: grey;
+    color: white;
+}
+
+.dynamicTableTh, .dynamicTableTd {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.dynamicTableTable img{
+    height: 35px;
+    width: 35px;
+}

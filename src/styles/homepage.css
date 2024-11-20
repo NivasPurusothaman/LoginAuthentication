@@ -1,0 +1,82 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+}
+
+.headerSecondSection {
+    margin-right: 20px;
+}
+
+.headerSecondSection p {
+    margin: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: brown;
+}
+
+.logoutDiv {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.headerSecondSection button {
+    border: none;
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+}
+
+.headerSecondSection button:hover {
+    cursor: pointer;
+}
+
+/* .header {
+    background-color: gray;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 20px;
+} */
+
+.loginContentHeader {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.loginContentHeader h2, h6 {
+    margin: 0;
+}
+
+.loginContentHeader h2 {
+    color: blue;
+    letter-spacing: 1px;
+}
+
+.loginContentHeader h6 {
+    color: orangered;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.navAndContent {
+    display: flex;
+}
+
+.navbar {
+    /* height: 500px; */
+    height: 100vh;
+    /* width: 15vw !important; */
+    background-color: gray;
+    margin: 0px 20px;
+    border-radius: 7px;
+}

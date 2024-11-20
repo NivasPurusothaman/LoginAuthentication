@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.container_1 {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.yellowDiv {
+    height: 80%;
+    width: 90%;
+    background-color: rgb(175, 235, 11);
+    display: flex;
+    align-items: end;
+}
+
+.yellowDiv h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
+
+.container_2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContent {
+    width: 50%;
+}
+
+.loginContentHeader {
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.loginContentHeader h2, h6 {
+    margin: 0;
+}
+
+.loginContentHeader h2 {
+    color: blue;
+    letter-spacing: 1px;
+}
+
+.loginContentHeader h6 {
+    color: orangered;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.formHeader {
+    letter-spacing: 1px;
+}
+
+.usernameDiv, .passwordDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.usernameDiv label, .passwordDiv label {
+    margin-bottom: 5px;
+}
+
+.usernameDiv input, .passwordDiv input {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.usernameDiv p, .passwordDiv p {
+    color: red;
+    margin-top: 5px;
+}
+
+.passwordDiv {
+    position: relative;
+}
+
+.passwordDiv i {
+    position: absolute;
+    right: 12px;
+    top: 34px;
+}
+
+.passwordDiv i:hover {
+    cursor: pointer;
+}
+
+.loginBtn {
+    width: 100%;
+    background-color: rgb(175, 235, 11);
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(175, 235, 11);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+}

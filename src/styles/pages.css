@@ -1,0 +1,17 @@
+.pagesTableDiv {
+    max-width: 1080px;
+}
+
+.pagesTable {
+    border-collapse: collapse;
+    overflow-x: scroll;
+}
+
+.pagesTableTh {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.pagesTableTd {
+    border: 1px solid black;
+}

@@ -1,0 +1,57 @@
+.userContainer {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: end;
+}
+
+.welcomeDiv {
+    color: green;
+    margin-left: 10px;
+}
+
+.aboutUser {
+    width: 15vw;
+    background-color: rgb(175, 235, 11);
+    color: green;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.aboutUser h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logoutBtnDiv {
+    margin-bottom: 10px;
+}
+
+.logoutBtnDiv button {
+    background-color: white;
+    color: green;
+    border: greenyellow;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.logoutBtnDiv button:hover {
+    cursor: pointer;
+}
+
+.customerTable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customerTable th, .customerTable td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.customerTable th {
+    background-color: gray;
+    color: white;
+}
